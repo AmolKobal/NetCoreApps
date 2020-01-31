@@ -1,4 +1,30 @@
 ﻿@page "/inventory"
 
-<h1>Inventory</h1>
+@using System;
 
+<h1>Item Inventory</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Sr.</th>
+            <th>Name</th>
+            <th>Price (&#8377;)</th>
+            <th>Quantity in hand</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            Random rng = new Random();
+            for (int i = 1; i < 10; i++)
+            {
+                <tr>
+                    <td>@i</td>
+                    <td>@("Item " + i.ToString())</td>
+                    <td>@(rng.Next(10, 120) * i)</td>
+                    <td>@rng.Next(0, 40) </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

@@ -6216,11 +6216,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyData\\Projects\\DotNet\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
+      "projectUniqueName": "C:\\MyData\\Projects\\DotNet\\NetCoreApps\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
       "projectName": "BlazorApp",
-      "projectPath": "C:\\MyData\\Projects\\DotNet\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
+      "projectPath": "C:\\MyData\\Projects\\DotNet\\NetCoreApps\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
       "packagesPath": "C:\\Users\\Amol\\.nuget\\packages\\",
-      "outputPath": "C:\\MyData\\Projects\\DotNet\\BlazorApp\\BlazorApp\\obj\\",
+      "outputPath": "C:\\MyData\\Projects\\DotNet\\NetCoreApps\\BlazorApp\\BlazorApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
